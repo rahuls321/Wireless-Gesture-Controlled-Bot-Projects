@@ -1,1 +1,10 @@
-# Wireless-Gesture-Controlled-Bot-Projects
+# Implementation of Wireless-Gesture-Controlled-Bot-Projects using Image Processing
+
+In this system, a gesture driven robotic vehicle is developed, in which the vehicle movements and manipulations i.e. handling and control depends on the gesture of the user. A camera reads the movements of the human body and communicates the data to a computer which sends signals to microcontroller and encoder circuit, It is further transmitted (transmitter section) by RF433 MHZ transmitter. In the receiver section, the RF 433 MHZ receiver holds down the received parameters and process with microcontroller and gives those parameters to the robotic vehicle so that it act accordingly to the gesture. The gesture recognition system is developed with MATLAB tool.  
+ The transmitter module is working on the frequency of 433MHz. In the circuit, vcc pin is connected to the + terminal. 
+ While the RF receiver module will receive the data which is transferred by the gesture device. It is also working as similar to the transmitter module. 
+ Microcontroller is used in an integrated circuit with a processor and other support devices like program memory, data memory, I/O port, serial communication interface etc. integrated together .
+
+The Proposed framework in which webcam is connected with the laptop and also the gesture recognition system running on it. A pair of wireless communication modules connected with the gesture recognition system and the robot controller respectively. The webcam is used to obtain the image data of the various hand movements. The acquired data is subjected to enhancement and processed further to make it fit for approximation with the gestures stored in the database. Then wireless module is used to send these different robot control commands corresponding to each gesture to the robot controller. Accordingly, the robotic arm will do actions according to different human hand gestures, thus human-robot interaction can be achieved. The gesture recognition system is developed with MATLAB tool.
+
+
