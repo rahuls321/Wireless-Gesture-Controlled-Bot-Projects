@@ -1,4 +1,4 @@
-# Implementation of Wireless-Gesture-Controlled-Bot-Projects using Image Processing
+# Implementation of a Wireless-Gesture-Controlled-Bot-Projects using Image Processing
 
 In this system, a gesture driven robotic vehicle is developed, in which the vehicle movements and manipulations i.e. handling and control depends on the gesture of the user. A camera reads the movements of the human body and communicates the data to a computer which sends signals to microcontroller and encoder circuit, It is further transmitted (transmitter section) by RF433 MHZ transmitter. In the receiver section, the RF 433 MHZ receiver holds down the received parameters and process with microcontroller and gives those parameters to the robotic vehicle so that it act accordingly to the gesture. The gesture recognition system is developed with MATLAB tool.  
  The transmitter module is working on the frequency of 433MHz. In the circuit, vcc pin is connected to the + terminal. 
